@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--estilos-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/champions.css">
+    <link rel="stylesheet" href="./styles/personalization.css">
+    <link rel="stylesheet" href="./styles/game-mode.css">
+    <link rel="stylesheet" href="./styles/end-section.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <!--gsap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <!--font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--swip.js-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- sign up and login-->
+    <div class="login-register">
+        <div class="imgbx">
+            <img src="./img/logo-simple.png">
+        </div>
+        <h4>Iniciar sesion</h4>
+        <h4>registrase</h4>
+    </div>
+    <!--Header-->
+    <header>
+        <!--item1-->
+        <div class="presentation-header">
+            <div class="riot-logo">
+                <img src="./img/icon.ico">
+                <h2>Riot Games</h2>
+            </div>
+            <h2>
+                TE DAMOS <br> LA BIENVENIDA AL GRAN MUNDO DE
+            </h2>
+            <div class="lol-logo">
+                <img src="./img/logo.png">
+            </div>
+            <button>juega ahora!</button>
+        </div>
+        <!--item2-->
+        <div class="navigation-header">
+            <div class="grid-item">
+                <h3>Noticias</h3>
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis et tempore ducimus hic temporibus
+                    aperiam nam incidunt? At quasi iusto voluptates assumenda ipsa autem inventore, eum similique ea.
+                    Adipisci.
+                </p>
+                <div class="blur"></div>
+            </div>
+            <div class="grid-item">
+                <h3>Campeones</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis et tempore ducimus hic
+                    temporibus aperiam nam incidunt? At quasi iusto voluptates assumenda ipsa autem inventore, eum
+                    similique ea. Adipisci.
+                </p>
+                <div class="blur"></div>
+            </div>
+            <div class="grid-item">
+                <h3>Notas de version</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis et tempore ducimus hic
+                    temporibus aperiam nam incidunt? At quasi iusto voluptates assumenda ipsa autem inventore, eum
+                    similique ea. Adipisci.</p>
+                <div class="blur"></div>
+            </div>
+            <div class="grid-item">
+                <h3>Informacion del juego</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis et tempore ducimus hic
+                    temporibus aperiam nam incidunt? At quasi iusto voluptates assumenda ipsa autem inventore, eum
+                    similique ea. Adipisci.</p>
+                <div class="blur"></div>
+            </div>
+        </div>
+    </header>
+    <!--champions-->
+    <section class="champions">
+        <p class="title">
+            ELIGE A TU
+            <br>
+            <span>CAMPEON</span>
+        </p>
+        <P class="description">
+            Ya sea que prefieras lanzarte directo a la batalla, apoyar a tus compañeros de equipo, o algo intermedio,
+            hay un lugar para ti en la Grieta.
+        </P>
+        <div class="champions-selector">
+            <div class="champion-item">
+                <img src="./img/luchadores.jpg" alt="">
+                <div class="hover">
+                    <img src="./img/icons/espadas.svg">
+                    <p>Luchadores</p>
+                </div>
+            </div>
+            <div class="champion-item">
+                <img src="./img/magos.jpg" alt="">
+                <div class="hover">
+                    <img src="./img/icons/mago.svg">
+                    <p>Magos</p>
+                </div>
+            </div>
+            <div class="champion-item">
+                <img src="./img/asesinos.jpg" alt="">
+                <div class="hover">
+                    <img src="./img/icons/asesino.svg">
+                    <p>Asesinos</p>
+                </div>
+            </div>
+            <div class="champion-item">
+                <img src="./img/tiradores.jpg" alt="">
+                <div class="hover">
+                    <img src="./img/icons/tirador.svg">
+                    <p>Titadores</p>
+                </div>
+            </div>
+            <div class="champion-item">
+                <img src="./img/tanques.jpg" alt="">
+                <div class="hover">
+                    <img src="./img/icons/tanque.svg">
+                    <p>Tanques</p>
+                </div>
+            </div>
+            <div class="champion-item">
+                <img src="./img/supports.jpg" alt="">
+                <div class="hover">
+                    <img src="./img/icons/support.svg">
+                    <p>Soportes</p>
+                </div>
+            </div>
+        </div>
+        <div class="category-description">
+            <img src="./img/demostration/yasuo.jpg" alt="">
+            <div class="category-champion-description">
+                <h3>Yasuo</h3>
+                <p>El Guerrero imperdonable</p>
+            </div>
+        </div>
+    </section>
+    <!--personalization-->
+    <section class="personalization">
+        <div class="champion-skins">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/skins/akali-kda.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/skins/akali2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/skins/akali-project.jpg" alt=""></div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="skin-presentation">
+            <h3>Domina con <br> <span>Estilo</span></h3>
+            <p>Cambia la apariencia de tus campeones favoritos con aspectos y personaliza tu estilo.</p>
+            <button>UNETE YA!</button>
+        </div>
+    </section>
+    <section class="game-mode">
+        <div class="mode-selection">
+            <h2>Multiples formas de <br> <span>Jugar</span></h2>
+            <div class="container-mode">
+                <div class="mode">
+                    <h3>la grieta del invocador</h3>
+                </div>
+                <div class="mode">
+                    <h3>Aram</h3>
+                </div>
+                <div class="mode">
+                    <h3>TFT</h3>
+                </div>
+            </div>
+        </div>
+        <h3 class="title">La grieta del invocador</h3>
+        <p class="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit, dolorem molestias magni
+            quod repudiandae nostrum id sed architecto autem impedit distinctio doloremque nobis dignissimos temporibus
+            quibusdam recusandae? Nam natus quia ipsam commodi modi facere. Nemo, dolores expedita accusantium deleniti
+            amet fugiat atque laborum ut dignissimos voluptatem vitae eveniet ipsum eum numquam. Ratione, officia dolor
+            libero aut blanditiis iusto corrupti!
+        </p>
+    </section>
+    <section class="end-section">
+        <video src="./video/lolvideo.mp4" loop autoplay onloadedmetadata="this.muted=true"></video>
+        <div class="absolute">
+            <h2>Comienza tu batalla ahora</h2>
+            <button>A Luchar!</button>
+        </div>
+        <div class="marco">
+
+        </div>
+    </section>
+    <footer>
+        <div class="navigation-footer">
+            <ul>
+                <li>Acerca de league of legends</li>
+                <li>Asistencia</li>
+                <li>Esrado del servicio</li>
+                <li>Ayudanos a mejorar</li>
+            </ul>
+        </div>
+        <div class="imgbox">
+            <img src="./img/icon.ico">
+        </div>
+        <div class="red-social">
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <p class="copyright">
+            ™ & © 2021 Riot Games Inc. Todos los derechos reservados. Riot Games, League of Legends y PvP.net son marcas
+            comerciales, marcas de servicios o marcas registradas de Riot Games, Inc.
+        </p>
+        <div class="derechos">
+            <ul>
+                <li><a href="">Privacidad</a></li>
+                <li><a href="">Terminos de uso</a></li>
+                <li><a href="">Preferencias de Cookies</a></li>
+            </ul>
+        </div>
+        <div class="esrb">
+            <img src="./img/ESRB-T.png" alt="">
+            <ul>
+                <li>Sangre</li>
+                <li>Violencia de fantasia</li>
+                <li>Temas insinuantes moderados</li>
+                <li>Uso de alcohol y tabaco</li>
+                <li>Interacciones en linea no clasificados por la ESRB</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./vanilla-tilt.js"></script>
+    <script src="./lol.js"></script>
+</body>
+
+</html>

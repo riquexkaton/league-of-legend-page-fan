@@ -1,0 +1,141 @@
+.end-section
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.end-section video
+{
+    width: 100%;
+}
+
+.end-section .absolute
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.end-section .absolute h2
+{
+    font-size: 60px;
+    max-width: 900px;
+    color: white;
+    text-align: center;
+}
+
+.end-section .absolute button
+{
+    width: 200px;
+    height: 70px;
+    font-size: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(27, 165, 175);
+    color: white;
+    transition: background-color 0.30s, color 1s 0.5s ;
+}
+
+.end-section .absolute button:hover
+{
+    background-color: rgb(218, 189, 25);
+    color: black;
+
+}
+.end-section .marco
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 95%;
+    height: 95%;
+    border: 2px solid rgb(218, 189, 25);
+    pointer-events: none;
+}
+
+
+
+
+@media only screen and (max-width:500px)
+{
+    .end-section
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.end-section video
+{
+    width: 100%;
+}
+
+.end-section .absolute
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.end-section .absolute h2
+{
+    font-size: 40px;
+    max-width: 900px;
+    color: white;
+    text-align: center;
+}
+
+.end-section .absolute button
+{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(27, 165, 175);
+    color: white;
+    transition: background-color 0.30s, color 1s 0.5s ;
+}
+
+.end-section .absolute button:hover
+{
+    background-color: rgb(218, 189, 25);
+    color: black;
+
+}
+.end-section .marco
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 95%;
+    height: 95%;
+    border: 2px solid rgb(218, 189, 25);
+    pointer-events: none;
+}
+}

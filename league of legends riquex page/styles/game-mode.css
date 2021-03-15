@@ -1,0 +1,127 @@
+.game-mode
+{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/game-modes/grieta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.70s;
+}
+
+.game-mode .mode-selection
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-mode .mode-selection h2
+{
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.game-mode .mode-selection h2 span{
+    font-size: 90px;
+    color: rgb(38, 209, 181);
+    text-shadow: 1px 1px 10px rgb(38, 209, 181);
+}
+
+.game-mode .mode-selection .container-mode
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    transform-style:preserve-3d;
+}
+.game-mode .mode-selection .container-mode .mode{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin: 30px 0px;
+    position: relative;
+    transition: 0.8s;
+    transform-style:preserve-3d ;
+    box-shadow: -2px -2px 10px rgba(0,0,0,0.8);
+}
+.game-mode .mode-selection .container-mode .mode h3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(38, 209, 181);
+    transform: perspective(1000px) translateZ(50px);
+
+}
+.game-mode .mode-selection .container-mode .mode:first-child
+{
+    background-size: cover;
+    background-image: url(../img/game-modes/grieta.jpg);
+    transform: perspective(1000px) rotateY(30deg) rotateX(10deg);
+}
+.game-mode .mode-selection .container-mode .mode:nth-child(2)
+{
+    background-size: cover;
+    background-image: url(../img/game-modes/aram.jpg);
+    transform: perspective(1000px) rotateY(10deg) rotateX(20deg);
+}
+.game-mode .mode-selection .container-mode .mode:nth-child(3)
+{
+    background-size: cover;
+    background-image: url(../img/game-modes/tft.jpg);
+    transform: perspective(1000px) rotateY(-40deg) rotateX(-10deg);
+    background-position: left;
+}
+
+.game-mode .mode-selection .container-mode .mode:hover
+{
+    transform: perspective(1000px) rotateY(0) rotateX(0);
+}
+
+.game-mode  .title
+{
+    font-size: 70px;
+    color: rgb(38, 209, 181);
+    text-align: center;
+
+}
+.game-mode .description{
+    margin: auto;
+    font-size: 15px;
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+@media only screen and (max-width:450px)
+{
+.game-mode .mode-selection h2
+{
+    text-align: center;
+    color: white;
+}
+
+.game-mode .mode-selection .container-mode .mode
+{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin: 30px 0px;
+    position: relative;
+    transition: 0.8s;
+    transform-style:preserve-3d ;
+    box-shadow: -2px -2px 10px rgba(0,0,0,0.8);
+}
+
+
+
+}
